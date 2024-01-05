@@ -1,0 +1,31 @@
+:root {
+  background: black;
+  color: #FFFFFF !important;
+  --color-pink: #FF306E;
+  --color-white: #FFFFFF;
+  --color-black: #121212;
+  --linear-primary: linear-gradient(145deg, #FF306E 0%,#000000 100%);
+  --linear-secondary: linear-gradient(0deg,#524FED, #D25CFC);
+  --linear-third: linear-gradient(#00FF94, #D345A3);
+  --linear-fourth: linear-gradient(#DADD5A, #D345A3);
+  --linear-fifth: linear-gradient(0.25turn, #901D93, #30C16A);
+  --linear-sixth: linear-gradient(0.6turn, #3CDCBF, #BD00FF);
+  --linear-seventh: linear-gradient(274deg, #423333 0%, #EDB7B7 100%);
+  --linear-eighth: linear-gradient(270deg, #30C16A -4.51%, rgba(144, 29, 147, 0.72) 104.1%);
+  --linear-ninth: linear-gradient(0.6turn, #FF0000, #BD00FF);
+  --linear-tenth: linear-gradient(270deg, #FF306E -4.95%, #994F25 100%);
+  --linear-eleventh: linear-gradient(0.8turn, #FF306E, #FC1AB0,#F900FF);
+  --shadow-primary: 0 0 6px #FF306E, 0 0 12px #FF306E;
+  --border: 1px solid #00f4f4;
+}
+*{  font-family: "Inter", sans-serif !important;}
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  scroll-behavior: smooth;
+  overflow-x: clip;
+}
+
+.about-bg {
+  background-color: #f00
+}
